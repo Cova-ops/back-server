@@ -9,7 +9,12 @@
     "phoneNumber": "+52 55 1005 7272",
     "profilePic": ""
   },
-  "social": [],
+  "social": [
+    {
+      "title": "YouTube Channel",
+      "url": "https://www.youtube.com/@codingcoding9492/featured"
+    }
+  ],
   "skills": [],
   "projects": [],
   "experiences": []
