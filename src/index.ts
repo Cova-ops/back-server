@@ -14,7 +14,7 @@ const app: Application = express();
 app.use(express.json())
 
 // Router
-app.use('/api', router)
+app.use('/back', router)
 
 // Middlewares
 app.use(middlewaresRouter)
