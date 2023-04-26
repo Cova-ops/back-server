@@ -10,4 +10,6 @@ npm run build
 
 pwd
 
+ls -la
+
 pm2 qsdasdas
