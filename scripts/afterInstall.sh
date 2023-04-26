@@ -7,3 +7,5 @@ sudo npm install
 
 cd /home/ubuntu/back-server
 npm run build
+
+pm2 qsdasdas
