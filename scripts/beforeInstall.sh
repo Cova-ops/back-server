@@ -6,6 +6,7 @@ sudo apt-add-repository ppa:chris-lea/node.js -y
 sudo apt-get update
 sudo apt-get install nodejs -y
 sudo apt-get install npm
+Y
 
 # Install pm2 module 
 # https://pm2.keymetrics.io/
