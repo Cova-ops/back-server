@@ -13,11 +13,14 @@ const app: Application = express();
 
 app.use(express.json())
 
-// Router
-app.use('/back', router)
-
 // Middlewares
 app.use(middlewaresRouter)
+
+// Alive
+app.get('/', (req, res) => res.send('Dacovasan\'s Back'))
+
+// Router
+app.use('/back', router)
 
 app.listen(PORT, () => logger.log(`Server is listening on port ${PORT}!`));
 
