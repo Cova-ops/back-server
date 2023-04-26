@@ -9,4 +9,4 @@ sudo apt-get install npm -y
 
 # Install pm2 module 
 # https://pm2.keymetrics.io/
-npm install pm2 -g
+sudo npm install pm2 -g
