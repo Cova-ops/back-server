@@ -19,7 +19,103 @@
       "url": "https://www.linkedin.com/in/daniel-covarrubias-a5b2b7191/"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "title": "Node JS",
+      "image": "&url*/public/portfolio/logo_node.png",
+      "progress": 90
+    },
+    {
+      "title": "AWS",
+      "image": "&url*/public/portfolio/logo_aws.png",
+      "progress": 40
+    },
+    {
+      "title": "CSS",
+      "image": "&url*/public/portfolio/logo_css.png",
+      "progress": 80
+    },
+    {
+      "title": "JavaScript",
+      "image": "&url*/public/portfolio/logo_js.png",
+      "progress": 90
+    },
+    {
+      "title": "Mongo DB",
+      "image": "&url*/public/portfolio/logo_mongo.png",
+      "progress": 85
+    },
+    {
+      "title": "MySQL",
+      "image": "&url*/public/portfolio/logo_mysql.png",
+      "progress": 80
+    },
+    {
+      "title": "NextJS",
+      "image": "&url*/public/portfolio/logo_next.png",
+      "progress": 77
+    },
+    {
+      "title": "Oracle DB",
+      "image": "&url*/public/portfolio/logo_oracledb.png",
+      "progress": 58
+    },
+    {
+      "title": "Redux",
+      "image": "&url*/public/portfolio/logo_redux.png",
+      "progress": 78
+    },
+    {
+      "title": "Tailwind",
+      "image": "&url*/public/portfolio/logo_tailwind.png",
+      "progress": 70
+    },
+    {
+      "title": "React",
+      "image": "&url*/public/portfolio/logo_react.png",
+      "progress": 89
+    },
+    {
+      "title": "Python",
+      "image": "&url*/public/portfolio/logo_python.png",
+      "progress": 80
+    },
+    {
+      "title": "SASS",
+      "image": "&url*/public/portfolio/logo_sass.png",
+      "progress": 82
+    },
+    {
+      "title": "GIT",
+      "image": "&url*/public/portfolio/logo_git.png",
+      "progress": 91
+    },
+    {
+      "title": "TypeScript",
+      "image": "&url*/public/portfolio/logo_ts.png",
+      "progress": 88
+    },
+    {
+      "title": "VS Code",
+      "image": "&url*/public/portfolio/logo_vscode.png",
+      "progress": 96
+    },
+    {
+      "title": "Vim",
+      "image": "&url*/public/portfolio/logo_vim.png",
+      "progress": 76
+    },
+    {
+      "title": "Jest",
+      "image": "&url*/public/portfolio/logo_jest.png",
+      "progress": 69
+    },
+    {
+      "title": "PgAdmin",
+      "image": "&url*/public/portfolio/logo_pgadmin.png",
+      "progress": 67
+    }
+  ],
   "projects": [],
   "experiences": []
 }
