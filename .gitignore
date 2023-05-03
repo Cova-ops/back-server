@@ -108,3 +108,5 @@ dist
 package-lock.json
 
 build
+src/pagesBuild/
+.vercel
