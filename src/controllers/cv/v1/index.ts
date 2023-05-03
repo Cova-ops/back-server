@@ -8,6 +8,7 @@ import { getLanguages } from './languages'
 import { getMe } from './me'
 import { getMedia } from './media'
 import { getSkills } from './skills'
+import { getProjects } from './projects'
 
 const routerV1: Router = Router()
 
@@ -19,6 +20,7 @@ routerV1.get('/languages', getLanguages)
 routerV1.get('/me', getMe)
 routerV1.get('/media', getMedia)
 routerV1.get('/skills', getSkills)
+routerV1.get('/projects', getProjects)
 
 export {
   routerV1
