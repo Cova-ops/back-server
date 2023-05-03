@@ -41,7 +41,7 @@ export type courses = {
   _type: "courses"
   name: string
   date: Date
-  summary: string
+  place: string
   link: Link
 }
 
@@ -60,3 +60,10 @@ export type languages = {
   progress: number
 }
 
+export type projects = {
+  _type: "projects"
+  name: string
+  date: Date
+  summary: string
+  link: Link
+}

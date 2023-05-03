@@ -6,6 +6,7 @@ import { getLanguagesService } from './languages'
 import { getMeService } from './me'
 import { getMediaService } from './media'
 import { getSkillsService } from './skills'
+import { getProjectsService } from './projects'
 
 export {
   getSkillsService,
@@ -15,5 +16,6 @@ export {
   getExpertiseService,
   getExperienceService,
   getEducationService,
-  getCoursesService
+  getCoursesService,
+  getProjectsService
 }
