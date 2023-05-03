@@ -12,12 +12,16 @@
   ],
   "routes": [
     {
-      "src": "/public/(.*)",
-      "dest": "public/$1"
+      "src": "/back/(.*)",
+      "dest": "src/index.ts"
     },
     {
-      "src": "/(.*)",
+      "src": "/",
       "dest": "src/index.ts"
+    },
+    {
+      "src": "/(.+)",
+      "dest": "public/$1"
     }
   ]
 }
