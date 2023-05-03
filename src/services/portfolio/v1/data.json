@@ -4,10 +4,10 @@
     "backgroundInformation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "email": "dacovasan00@gmail.com",
     "role": "Software Engineer",
-    "heroImage": "http://localhost:3000/public/portfolio/image_yo.jpg",
+    "heroImage": "https://back.dacovasan.dev/public/portfolio/image_yo.jpg",
     "name": "Daniel Covarrubias",
     "phoneNumber": "+52 55 1005 7272",
-    "profilePic": "http://localhost:3000/public/portfolio/logo_yo.jpg"
+    "profilePic": "https://back.dacovasan.dev/public/portfolio/logo_yo.jpg"
   },
   "social": [
     {
@@ -22,130 +22,130 @@
   "skills": [
     {
       "title": "Node JS",
-      "image": "http://localhost:3000/public/portfolio/logo_nodejs.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_nodejs.png",
       "progress": 90
     },
     {
       "title": "Firebase",
-      "image": "http://localhost:3000/public/portfolio/logo_firebase.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_firebase.png",
       "progress": 70
     },
     {
       "title": "AWS",
-      "image": "http://localhost:3000/public/portfolio/logo_aws.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_aws.png",
       "progress": 40
     },
     {
       "title": "CSS",
-      "image": "http://localhost:3000/public/portfolio/logo_css.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_css.png",
       "progress": 80
     },
     {
       "title": "JavaScript",
-      "image": "http://localhost:3000/public/portfolio/logo_js.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_js.png",
       "progress": 90
     },
     {
       "title": "Mongo DB",
-      "image": "http://localhost:3000/public/portfolio/logo_mongo.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_mongo.png",
       "progress": 85
     },
     {
       "title": "MySQL",
-      "image": "http://localhost:3000/public/portfolio/logo_mysql.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_mysql.png",
       "progress": 80
     },
     {
       "title": "NextJS",
-      "image": "http://localhost:3000/public/portfolio/logo_next.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_next.png",
       "progress": 77
     },
     {
       "title": "Oracle DB",
-      "image": "http://localhost:3000/public/portfolio/logo_oracledb.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_oracledb.png",
       "progress": 58
     },
     {
       "title": "Redux",
-      "image": "http://localhost:3000/public/portfolio/logo_redux.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_redux.png",
       "progress": 78
     },
     {
       "title": "Tailwind",
-      "image": "http://localhost:3000/public/portfolio/logo_tailwind.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_tailwind.png",
       "progress": 70
     },
     {
       "title": "React",
-      "image": "http://localhost:3000/public/portfolio/logo_react.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_react.png",
       "progress": 89
     },
     {
       "title": "Python",
-      "image": "http://localhost:3000/public/portfolio/logo_python.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_python.png",
       "progress": 80
     },
     {
       "title": "SASS",
-      "image": "http://localhost:3000/public/portfolio/logo_sass.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_sass.png",
       "progress": 82
     },
     {
       "title": "GIT",
-      "image": "http://localhost:3000/public/portfolio/logo_git.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_git.png",
       "progress": 91
     },
     {
       "title": "TypeScript",
-      "image": "http://localhost:3000/public/portfolio/logo_ts.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_ts.png",
       "progress": 88
     },
     {
       "title": "VS Code",
-      "image": "http://localhost:3000/public/portfolio/logo_vscode.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_vscode.png",
       "progress": 96
     },
     {
       "title": "Vim",
-      "image": "http://localhost:3000/public/portfolio/logo_vim.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_vim.png",
       "progress": 76
     },
     {
       "title": "Jest",
-      "image": "http://localhost:3000/public/portfolio/logo_jest.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_jest.png",
       "progress": 69
     },
     {
       "title": "PgAdmin",
-      "image": "http://localhost:3000/public/portfolio/logo_pgadmin.png",
+      "image": "https://back.dacovasan.dev/public/portfolio/logo_pgadmin.png",
       "progress": 67
     }
   ],
   "projects": [
     {
       "title": "My CV",
-      "image": "http://localhost:3000/public/portfolio/image_mycv.jpg",
+      "image": "https://back.dacovasan.dev/public/portfolio/image_mycv.jpg",
       "linkToBuild": "https://cv-online-8877e.web.app/",
       "summary": "Make this text bigger",
       "technologies": [
         {
           "title": "Firebase",
-          "image": "http://localhost:3000/public/portfolio/logo_firebase.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_firebase.png",
           "progress": 70
         },
         {
           "title": "Redux",
-          "image": "http://localhost:3000/public/portfolio/logo_redux.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_redux.png",
           "progress": 78
         },
         {
           "title": "TypeScript",
-          "image": "http://localhost:3000/public/portfolio/logo_ts.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_ts.png",
           "progress": 88
         },
         {
           "title": "Tailwind",
-          "image": "http://localhost:3000/public/portfolio/logo_tailwind.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_tailwind.png",
           "progress": 70
         }
       ]
@@ -154,7 +154,7 @@
   "experiences": [
     {
       "company": "Xira",
-      "companyImage": "http://localhost:3000/public/portfolio/logo_xira.png",
+      "companyImage": "https://back.dacovasan.dev/public/portfolio/logo_xira.png",
       "dateStarted": "2022-12-31T12:00:00.000Z",
       "dateEnded": null,
       "isCurrentlyWorkingHere": true,
@@ -167,39 +167,39 @@
       "technologies": [
         {
           "title": "Node JS",
-          "image": "http://localhost:3000/public/portfolio/logo_nodejs.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_nodejs.png",
           "progress": 90
         },
         {
           "title": "Mongo DB",
-          "image": "http://localhost:3000/public/portfolio/logo_mongo.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_mongo.png",
           "progress": 85
         },
         {
           "title": "MySQL",
-          "image": "http://localhost:3000/public/portfolio/logo_mysql.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_mysql.png",
           "progress": 80
         },
         {
           "title": "Oracle DB",
-          "image": "http://localhost:3000/public/portfolio/logo_oracledb.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_oracledb.png",
           "progress": 58
         },
         {
           "title": "AWS",
-          "image": "http://localhost:3000/public/portfolio/logo_aws.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_aws.png",
           "progress": 40
         },
         {
           "title": "GIT",
-          "image": "http://localhost:3000/public/portfolio/logo_git.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_git.png",
           "progress": 91
         }
       ]
     },
     {
       "company": "Xira",
-      "companyImage": "http://localhost:3000/public/portfolio/logo_xira.png",
+      "companyImage": "https://back.dacovasan.dev/public/portfolio/logo_xira.png",
       "dateStarted": "2021-12-02T12:00:00.000Z",
       "dateEnded": "2022-12-31T12:00:00.000Z",
       "isCurrentlyWorkingHere": false,
@@ -213,32 +213,32 @@
       "technologies": [
         {
           "title": "Node JS",
-          "image": "http://localhost:3000/public/portfolio/logo_nodejs.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_nodejs.png",
           "progress": 90
         },
         {
           "title": "Mongo DB",
-          "image": "http://localhost:3000/public/portfolio/logo_mongo.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_mongo.png",
           "progress": 85
         },
         {
           "title": "MySQL",
-          "image": "http://localhost:3000/public/portfolio/logo_mysql.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_mysql.png",
           "progress": 80
         },
         {
           "title": "Oracle DB",
-          "image": "http://localhost:3000/public/portfolio/logo_oracledb.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_oracledb.png",
           "progress": 58
         },
         {
           "title": "Python",
-          "image": "http://localhost:3000/public/portfolio/logo_python.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_python.png",
           "progress": 80
         },
         {
           "title": "TypeScript",
-          "image": "http://localhost:3000/public/portfolio/logo_ts.png",
+          "image": "https://back.dacovasan.dev/public/portfolio/logo_ts.png",
           "progress": 88
         }
       ]
