@@ -13,7 +13,7 @@ const app: Application = express();
 
 app.use(express.json())
 
-logger.log(process.cwd())
+// logger.log(process.cwd())
 
 // Public files
 app.use('/public', express.static(process.cwd() + '/public'))
