@@ -5,18 +5,19 @@
     "email": "dacovasan00@gmail.com",
     "role": "Software Engineer",
     "heroImage": "https://back.dacovasan.dev/public/portfolio/image_yo.jpg",
+    "heroImage2": "http://localhost:3000/public/portfolio/image_yo_2.jpeg",
     "name": "Daniel Covarrubias",
     "phoneNumber": "+52 55 1005 7272",
     "profilePic": "https://back.dacovasan.dev/public/portfolio/logo_yo.jpg"
   },
   "social": [
     {
-      "title": "YouTube Channel",
-      "url": "https://www.youtube.com/@codingcoding9492/featured"
-    },
-    {
       "title": "LinkedIn Profile",
       "url": "https://www.linkedin.com/in/daniel-covarrubias-a5b2b7191/"
+    },
+    {
+      "title": "GitHub Profile",
+      "url": "https://github.com/Cova-ops"
     }
   ],
   "skills": [
