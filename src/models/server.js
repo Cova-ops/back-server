@@ -57,6 +57,8 @@ class Server {
   }
 
   routes () {
+    this.app.get('/', (req, res) => res.send('Dacovasan\'s Backend'))
+
     this.app.use(this.paths.portfolio, routerPorfolio)
 
     // // Serve the static files
