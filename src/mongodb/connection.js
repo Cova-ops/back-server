@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 
 import config from '../config/config.js'
 
-const dbConnection = async () => {
+export const makeConnection = async () => {
   try {
     await mongoose.connect(config.mongo.url, {
       useNewUrlParser: true,
@@ -17,4 +17,12 @@ const dbConnection = async () => {
   }
 }
 
-export default dbConnection
+export const closeConnection = async () => {
+  try {
+    await mongoose.connection.close()
+    console.log('Mongo connection has been closed successfully')
+  } catch (error) {
+    console.error(error)
+    throw new Error('Error closing mongo database')
+  }
+}

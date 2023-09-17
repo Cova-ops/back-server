@@ -155,5 +155,6 @@ describe('FETCHING ALL INFO', () => {
 })
 
 afterAll(async () => {
+  await server.closeConnectionDB()
   server.server.close()
 })

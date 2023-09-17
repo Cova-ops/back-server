@@ -6,7 +6,7 @@ import cors from 'cors'
 import config from '../config/config.js'
 
 // DB
-import mongoConnection from '../mongodb/connection.js'
+import { makeConnection as makeMongoConnection, closeConnection as closeMongoConnection } from '../mongodb/connection.js'
 
 // Routes
 import { routerPorfolio } from '../routes/index.js'
@@ -36,7 +36,11 @@ class Server {
 
   async connectDB () {
     // await dbConnection()
-    await mongoConnection()
+    await makeMongoConnection()
+  }
+
+  async closeConnectionDB () {
+    await closeMongoConnection()
   }
 
   middlewares () {

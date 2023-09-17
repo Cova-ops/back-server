@@ -9,7 +9,7 @@
   "scripts": {
     "start": "NODE_ENV=PROD node src/app.js",
     "dev": "NODE_ENV=DEV node --watch src/app.js",
-    "test": "NODE_ENV=TEST NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
+    "test": "NODE_ENV=TEST NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles --forceExit",
     "test:watch": "npm run test -- --watch",
     "create-models": "node src/config/config-sequelize-auto.js",
     "migrate:up": "npx sequelize-cli db:migrate",
