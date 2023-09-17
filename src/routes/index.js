@@ -1,3 +1,3 @@
-import routerPorfolio from './portfolio.routes'
+import routerPorfolio from './portfolio.routes.js'
 
 export { routerPorfolio }

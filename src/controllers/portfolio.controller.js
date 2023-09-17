@@ -1,10 +1,10 @@
 // Middleware
-import { asyncMiddleware, successResponseMiddleware } from '../middlewares'
+import { asyncMiddleware, successResponseMiddleware } from '../middlewares/index.js'
 
 // Helpers
 
 // Repositories
-import { fetchPageInfo } from '../repositories/portfolio.repository'
+import { fetchPageInfo } from '../repositories/portfolio.repository.js'
 
 // Constants
 const RESOURCE = 'Portfolio'

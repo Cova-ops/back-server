@@ -3,19 +3,18 @@ import morgan from 'morgan'
 import cors from 'cors'
 
 // Config
-import config from '../config/config'
+import config from '../config/config.js'
 
 // DB
-import mongoConnection from '../mongodb/connection'
+import mongoConnection from '../mongodb/connection.js'
 
 // Routes
-import { routerPorfolio } from '../routes'
+import { routerPorfolio } from '../routes/index.js'
 
 // Middlewares
-import { errorMiddleware } from '../middlewares'
+import { errorMiddleware } from '../middlewares/index.js'
 
 // Constants
-
 const PREFIX_API = '/api/v1'
 
 // ---------------------------------------------------

@@ -1,6 +1,6 @@
-import errorMiddleware from './error'
-import asyncMiddleware from './async'
-import successResponseMiddleware from './successResponse'
+import errorMiddleware from './error.js'
+import asyncMiddleware from './async.js'
+import successResponseMiddleware from './successResponse.js'
 
 export {
   errorMiddleware,

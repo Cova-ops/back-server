@@ -5,6 +5,7 @@
   "type": "module",
   "author": "Daniel Covarrubias <dacovasan00@gmail.com>",
   "license": "MIT",
+  "main": "src/app.js",
   "scripts": {
     "start": "NODE_ENV=PROD node src/app.js",
     "dev": "NODE_ENV=DEV node --watch src/app.js",

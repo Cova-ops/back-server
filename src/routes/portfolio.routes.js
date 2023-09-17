@@ -9,7 +9,7 @@ import { Router } from 'express'
 // Validators
 
 // Controllers
-import { getPageInfo } from '../controllers/portfolio.controller'
+import { getPageInfo } from '../controllers/portfolio.controller.js'
 
 // Constants
 

@@ -10,15 +10,11 @@ const PageInfoSchema = new Schema({
   name: { type: String, required: true },
   phoneNumber: { type: String, required: true },
   profilePic: { type: String, required: true }
-})
+}, { collection: 'pageInfo' })
 
-const PortfolioSchema = new Schema({
-
-})
-
-PortfolioSchema.methods.toJSON = function () {
+PageInfoSchema.methods.toJSON = function () {
   const { __v, ...data } = this.toObject()
   return data
 }
 
-export default model('portfolio', PortfolioSchema)
+export default model('pageInfo', PageInfoSchema)

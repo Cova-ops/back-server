@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-import config from '../config/config'
+import config from '../config/config.js'
 
 const dbConnection = async () => {
   try {
@@ -10,7 +10,6 @@ const dbConnection = async () => {
       // useCreateIndex: true,
       // useFindAndModify: false
     })
-
     console.log('Mongo connection has been established successfully')
   } catch (error) {
     console.error(error)
