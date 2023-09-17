@@ -1,9 +1,3 @@
-import errorMiddleware from './error.js'
-import asyncMiddleware from './async.js'
-import successResponseMiddleware from './successResponse.js'
-
-export {
-  errorMiddleware,
-  asyncMiddleware,
-  successResponseMiddleware
-}
+export { default as errorMiddleware } from './error.js'
+export { default as asyncMiddleware } from './async.js'
+export { default as successResponseMiddleware } from './successResponse.js'

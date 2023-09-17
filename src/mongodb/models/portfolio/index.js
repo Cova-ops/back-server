@@ -1,5 +1,5 @@
 export { default as PageInfoSchema } from './pageInfo.model.js'
-export { default as ProjectSchema } from './projects.model.js'
+export { default as ProjectsSchema } from './projects.model.js'
 export { default as SkillsSchema } from './skills.model.js'
 export { default as SocialMediaSchema } from './socialMedia.model.js'
 export { default as WorkExperienceSchema } from './workExperience.model.js'

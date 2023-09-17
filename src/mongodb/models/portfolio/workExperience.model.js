@@ -8,7 +8,7 @@ const WorkExperienceSchema = new Schema({
   isCurrentlyWorkingHere: { type: Boolean, required: true },
   jobTitle: { type: String, required: true },
   points: { type: [String], required: true },
-  technologies: { type: Schema.Types.ObjectId, ref: 'skills' }
+  technologies: [{ type: Schema.Types.ObjectId, ref: 'skills' }]
 }, { collection: 'workExperience' })
 
 WorkExperienceSchema.methods.toJSON = function () {

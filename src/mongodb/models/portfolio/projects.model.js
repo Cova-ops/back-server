@@ -5,7 +5,7 @@ const ProjectsSchema = new Schema({
   summary: { type: String, required: true },
   image: { type: String, required: true },
   linkToBuild: { type: String, required: true },
-  technologies: { type: Schema.Types.ObjectId, ref: 'skills' }
+  technologies: [{ type: Schema.Types.ObjectId, ref: 'skills' }]
 }, { collection: 'projects' })
 
 ProjectsSchema.methods.toJSON = function () {
