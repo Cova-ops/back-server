@@ -13,7 +13,7 @@ export default {
     dialect: process.env[`${NODE_ENV}_DB_DIALECT`] ?? ''
   },
   server: {
-    port: process.env[`${NODE_ENV}_SERVER_PORT`] ?? 3000,
+    port: process.env.PORT ?? 3000,
     appName: process.env.APP_NAME ?? 'Backend Cova-ops'
   },
   mongo: {
