@@ -3,19 +3,18 @@ import morgan from 'morgan'
 import cors from 'cors'
 
 // Config
-import config from '../config/config'
+import config from '../config/config.js'
 
 // DB
-import mongoConnection from '../mongodb/connection'
+import { makeConnection as makeMongoConnection, closeConnection as closeMongoConnection } from '../mongodb/connection.js'
 
 // Routes
-import { routerPorfolio } from '../routes'
+import { routerPorfolio } from '../routes/index.js'
 
 // Middlewares
-import { errorMiddleware } from '../middlewares'
+import { errorMiddleware } from '../middlewares/index.js'
 
 // Constants
-
 const PREFIX_API = '/api/v1'
 
 // ---------------------------------------------------
@@ -37,7 +36,11 @@ class Server {
 
   async connectDB () {
     // await dbConnection()
-    await mongoConnection()
+    await makeMongoConnection()
+  }
+
+  async closeConnectionDB () {
+    await closeMongoConnection()
   }
 
   middlewares () {
